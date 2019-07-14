@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+    <title>    </title>
+    <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+         <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Righteous|Roboto:400,700,900" rel="stylesheet">
+         
+        <!-- BootStrpa CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="css/gallery_css.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div id="mainHeading">
+                <h1>Image Gallery</h1>
+                <h4>Click on Image...</h4>
+        </div>
+
+        <div class="row">
+          <div class="column col-sm-4">
+            <img src="img/img_nature.jpg" alt="Nature" onclick="openImg(this);">
+          </div>
+          <div class="column col-sm-4">
+            <img src="img/img_snow.jpg" alt="Snow" onclick="openImg(this);">
+          </div>
+          <div class="column col-sm-4">
+            <img src="img/img_mountain.jpg" alt="Mountains" onclick="openImg(this);">
+          </div>
+          <div class="column col-sm-4">
+            <img src="img/img_lights.jpg" alt="Lights" onclick="openImg(this);">
+          </div>
+        </div>
+       
+<!--        <div id="line"><hr>line</div>-->
+    <!-- The expanding image container -->
+    <div class="imgContainer">
+       <div id="imgtext"></div>
+      <!-- Close the image -->
+      
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+
+      <!-- Expanded image -->
+      <img id="expandedImg" style="width:100%">
+
+      <!-- Image text -->
+     
+    </div>
+    
+    <a href="index.html" class="backToPortfolio"> Back To Portfolio</a>
+</div> 
+<script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"> </script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/gallery_js.js"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,526 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     height: 100%;
+    background-image: url("../img/office_img.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+/*    background: #345;*/
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+     font-size: 1.3em;
+}
+h2{
+    font-size: 2em;
+}
+h3{
+    font-size: 1.5em;
+/*    margin-bottom: 0px;*/
+    
+}
+h2{
+    color:#b3d9ff;
+}
+h3{
+    color: #66b3ff;
+}
+.clearFloat{
+    clear: both;
+}
+#wrapper{
+    width: 100%;
+/*    height: auto;*/
+    background: rgba(0,0,0,0.6);
+/*    border: 2px solid #000;*/
+    
+/*    margin: 5px auto;*/
+    padding: 5px;
+/*    margin-top: 5px;*/
+/*
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+*/
+    
+}
+/*------------------------------------------------------------
+            Header Section
+-------------------------------------------------------------*/
+#HeaderText{
+    margin: 2px auto;
+    text-align: center;
+}
+#HeaderText h1{
+   font-family: 'Righteous', cursive;
+    font-size: 3.2em;
+    letter-spacing: 2px;
+}
+#HeaderTagLine{
+    padding: 5px;
+    
+/*    line-height: 1em;    */
+}
+#HeaderTagLine h3{
+    font-size: 2em;
+}
+#headerImgDiv.col-xs-3{
+    margin:auto auto;
+    float: none;
+}
+#headerImgDiv img{
+    border: 2px solid #ccc;
+/*    box-shadow: -2px 2px 5px #999;*/
+}
+#headerImgDiv img:hover{
+    border: 2px groove #666;
+    box-shadow: 2px 2px 5px #333;
+}
+
+/*------------------------------------------------------------
+             Section
+-------------------------------------------------------------*/
+#sectionWrapper{
+    padding:10px 0;
+    
+}
+#sectionHeading{
+    width: 100%;;
+}
+#sectionHeading h2{
+    font-size:2.3em;
+    text-align: center;
+}
+.textParagraph{
+    width: 80%;
+    margin: 15px auto;
+    font-size: 1.5em;
+    font-weight: 400;
+    line-height: 1.7em;
+    text-indent: 10%;
+    text-align: justify;
+}
+/*------------------------------------------------------------
+             Skill Section
+-------------------------------------------------------------*/
+
+#skillDiv{
+    width: 80%;
+    text-align: center;
+    margin: 20px auto;
+    border: 2px solid #789;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #fcfcfc;
+    padding: 5px;
+}
+#skillDiv:hover{
+/*    background: #5D5c61;*/
+    background-color: rgba(21,21,21,0.5);
+    color: #fff;
+/*    font-weight: 600;*/
+    border: 2px groove #000;
+}
+#leftDiv{
+    float: left;
+    width: 50%;
+    border-right: 2px solid #789;
+}
+
+#rightDiv{
+    float: right;
+    width: 50%;
+}
+
+.skillHeader i{
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-align: center;
+    background: #347;
+}
+.skillMidHeading{
+    padding-top: 5px;
+}
+.skillMidHeading h3{
+    padding-bottom: 5px;
+}
+.skillMidHeading p{
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+}
+.toolsDiv ul li.list-group-item{
+    background-color:transparent; 
+    border: none;    
+    padding: 5px 0;
+    font-size: 1.3em;
+}
+/*------------------------------------------------------------
+             Work Section
+-------------------------------------------------------------*/
+#work{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+#workWarpper{
+    width: 100%;
+    border:1px solid #000;
+    background-color: rgba(0,0,0,0.7);
+}
+#workGallery{
+    width: 100%;
+    
+}
+.workList{
+    list-style: none;
+    margin: 30px auto;
+    width: 80%;
+    height: auto;
+        
+}
+.workList li{
+    float: left;
+    padding: 5px 10px;
+     
+}
+.workList li div.liBox{
+    width: 100%;
+    height: 180px;
+    padding-top: 30px;    
+    text-align: center;
+    vertical-align:middle;
+    font-size: 1.3em;
+
+/*    background: #347;*/
+    border:2px solid #CCC;
+    border-radius: 15px;
+    -webkit-border-radius:    15px;
+    -moz-border-radius: 15px;
+    
+   background: -moz-linear-gradient(top, rgba(173,173,173,0.65) 0%, rgba(98,98,98,0.65) 40%, rgba(0,0,0,0.09) 92%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(173,173,173,0.65) 0%,rgba(98,98,98,0.65) 40%,rgba(0,0,0,0.09) 92%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(173,173,173,0.65) 0%,rgba(98,98,98,0.65) 40%,rgba(0,0,0,0.09) 92%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6adadad', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+
+.workList li:hover{
+    cursor: pointer;
+    color: #000;
+    font-weight: 700;
+    text-shadow: 2px 2px 2px #ccc;
+    
+}
+.workList li div.liBox:hover
+{
+    box-shadow: 3px 3px 5px #666;
+}
+.workList li div.liBox:hover{
+   background: #122e5b; /* Old browsers */
+background: -moz-linear-gradient(top, #122e5b 0%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #122e5b 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #122e5b 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#122e5b', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+}
+
+.liBox .logoDiv{
+    width:80px;
+    height: 50px;
+    margin: auto;
+    border: 1px solid #000;
+    border-radius: 20%;
+}
+.liBox .logoDiv:hover{
+    border:3px groove blue;
+
+}
+.liBox #logo1{
+   background: url("../img/logo1_1.png");
+    background-size: 100% 100%;
+}
+.liBox #logo2{
+   
+   background: url("../img/imgGalary3.jpg");
+    background-size: 100% 100%;
+}
+div#logo3.liBox{
+    padding-top: 80px;
+}
+/*------------------------------------------------------------
+             Testimonial Section
+-------------------------------------------------------------*/
+
+#testimonial{
+    width: 100%;
+    min-height: 300px;
+    margin:50px 00px;
+    margin-bottom: 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.7);
+   /*background-image: url("../img/bg-testimonials.jpg");*/
+}
+#testimonialWrapper{
+    padding: 50px 0;
+    background-color: rgba(0,0,0,0.1);
+}
+
+#testimonial blockquote {
+    border: 0px;
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+    color: #fff;
+    padding: 20px 150px;
+    position: relative;
+    /*this means the box is relatived positioned for contenet inside the box and contenet can be positioned absolute*/
+}
+
+#testimonial blockquote p {
+    color: #fff;
+}
+
+#testimonial blockquote::before,
+#testimonial blockquote::after {
+    font-size: 40px;
+    font-style: normal;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+#testimonial blockquote::before {
+    content: '\201c';
+    top: 0;
+    left: 100px;
+}
+
+#testimonial blockquote::after {
+    content: '\201d';
+    bottom: 0;
+    right: 120px;
+}
+
+.testimonial-author p {
+    font-size: 17px;
+    color: #fff;
+}
+
+.testimonial-author p strong {
+    display: block;
+}
+/*=====================================================
+                   Social
+=======================================================*/
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+
+    list-style: none;
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.social-icon i {
+    font-size: 25px;
+}
+
+
+.icon-white i{
+    color: #fff;
+}
+
+.icon-white i:hover {
+    color: #34c6d3;
+}
+.pEmail{
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+#footerWrapper .row{
+    margin: 0;
+    padding: 0;
+}
+#footerWrapper{
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px 0;
+    margin-top: 60px;
+/*    bottom: 0;*/
+/*    border: 1px solid #000;*/
+    text-align: center;
+}
+div#footer-quote h3{
+    line-height: 1.5em;
+    font-size: 2em;
+}
+
+
+/*=====================================================
+                   Media Queries
+=======================================================*/
+
+@media only screen and (max-width:380px){
+    #wrapper{
+        padding:12px;
+    }
+    
+    .img-responsive{
+        max-width: 100px;
+    }
+    #HeaderText h1{
+        font-size: 2em;
+    }
+    #HeaderTagLine h3{
+        font-size: 1.2em;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .textParagraph{
+        font-size: 1.2em;
+        text-align: center;
+    }
+    #sectionHeading h2{
+        font-size:1.5em;
+    }
+    #skillDiv{
+        width: 100%;
+    }
+    #skillDiv h3{
+        font-size: 1.3em;
+    }
+    .skillMidHeading p {
+    font-size: 1.2em;
+/*    letter-spacing: 1px;*/
+    word-wrap: break-word;
+    }
+    .toolsDiv ul li.list-group-item{
+            font-size: 1.2em;
+    }
+    #testimonialWrapper{
+        padding: 0;
+    }
+    #testimonial blockquote::before {
+        left: 0;
+    }
+    #testimonial blockquote::before, #testimonial blockquote::after {
+        font-size: 30px;
+    }
+    
+    #testimonial blockquote {
+        padding: 15px 5px;
+        font-size: 1.2em;
+        text-indent: 15px;
+    }
+    .workList li{
+        float: none;
+    }
+    .workList li div.liBox{
+        height: 150PX;
+        width: 80%;
+        margin: 0 auto;
+    }
+    #footerWrapper{
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width:768px){
+  #wrapper{
+        padding:8px;
+    }
+    #HeaderText h1{
+        font-size: 1.8em;
+
+    }   
+    
+    .img-responsive{
+        max-width: 100px;
+    }
+
+    #HeaderTagLine h3{
+        font-size: 1.4em;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+    .textParagraph{
+        font-size: 1.4em;
+        text-align: center;
+    }
+    #sectionHeading h2{
+        font-size:1.7em;
+    }
+    #skillDiv{
+        width: 100%;
+    }
+    #skillDiv h3{
+        font-size: 1.5em;
+    }
+    .skillMidHeading p {
+    font-size: 1.3em;
+/*    letter-spacing: 1px;*/
+    word-wrap: break-word;
+    }
+    .toolsDiv ul li.list-group-item{
+            font-size: 1.3em;
+    }
+    #testimonialWrapper{
+        padding: 0;
+    }
+    #testimonial blockquote::before {
+        left: 0;
+    }
+    #testimonial blockquote::before, #testimonial blockquote::after {
+        font-size: 30px;
+    }
+    #testimonial blockquote::after{
+        right: 0;
+    }
+    
+    #testimonial blockquote {
+        padding: 15px 5px;
+        font-size: 1.2em;
+        text-indent: 15px;
+    }
+    .workList li{
+        float: none;
+    }
+    .workList li div.liBox{
+        height: 150PX;
+        width: 50%;
+        margin: 0 auto;
+    }
+    #footerWrapper{
+        padding: 20px 0;
+        margin-top: 20px;
+    }
+    div#footer-quote h3{
+        font-size: 1.5em;
+    }
+}
+
+
+@media only  screen and (min-width:768px){
+    .workList li{
+        float: left;
+    }
+    .workList li div.liBox{
+        width:100%;
+    }
+    .img-responsive {
+        max-width: 100%;
+    }
+}
